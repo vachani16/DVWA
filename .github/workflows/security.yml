@@ -7,4 +7,4 @@ on:
 
 jobs:
   semgrep:
-    uses: ORG_NAME/secure-ci-templates/.github/workflows/semgrep.yml@main
+    uses: vedanshvachani/secure-ci-templates/.github/workflows/semgrep.yml@main
