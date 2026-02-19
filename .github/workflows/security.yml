@@ -1,0 +1,10 @@
+name: Security Scan
+
+on:
+  pull_request:
+  push:
+    branches: [ main ]
+
+jobs:
+  semgrep:
+    uses: ORG_NAME/secure-ci-templates/.github/workflows/semgrep.yml@main
