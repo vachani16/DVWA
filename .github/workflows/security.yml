@@ -1,14 +1,10 @@
 name: Security Scans
 
 on:
-  pull_request:
-    branches: [ main, master ]
   push:
-    branches: [ main, master ]
-
-permissions:
-  contents: read
-  security-events: write
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   semgrep:
